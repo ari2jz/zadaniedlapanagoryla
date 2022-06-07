@@ -12,26 +12,29 @@
  </head>
  <body>
     <header>
-        <h1>Ploter XY</h1>
+        <h1>Wykreso-generator-inator <br>
+            <img class="heinz" src="Heinz_Dundersztyc.png" alt="">
+        </h1>
     </header>
     <main>
         <section>
             <div id="inputContainer">
                 <label for="inputA">a:</label>
-                <input id="inputA" type="text" />
+                <input class= "iA" id="inputA" type="text" />
                 <br />
-                <label for="inputB">b:</label>
-                <input id="inputB" type="text" />
+                <label  for="inputB">b:</label>
+                <input class="iB" id="inputB" type="text" />
                 <br />
-                <p>Equation: <span id="funEquation"></span></p>
-                <input id="confirmButton" type="button" value="Draw" onclick="plot()" >
+                <p>Wykres: <span id="funEquation"></span></p>
+                <input id="confirmButton" type="button" class="przycisk" value="Narysuj!" onclick="plot()" >
+                
             </div>
             <div id="plotContainer">
-                <canvas id="plotCanvas" height="500" width="700" />
+                <canvas id="plotCanvas"class="wykres" height="500" width="700" />
             </div>
         <section>
     </main>
-
+    
 
  </body>
  </html>

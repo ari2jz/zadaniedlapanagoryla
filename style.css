@@ -1,11 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@300;400&family=Work+Sans:wght@500&display=swap");
 body {
-  background-color: #303030;
+  background-color: #d3d3d3;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
+  font-family: "Archivo", sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
 
 h1,
 h2 {
   color: #adadad;
+}
+
+.iA,
+.iB {
+  border-radius: 5px;
+  background-color: #adadad;
+  opacity: 0.2;
+  border: none;
+  outline: none;
+}
+
+.przycisk {
+  background-color: #adadad;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.wykres {
+  margin-top: 35px;
+}
+
+.heinz {
+  width: 250px;
+  height: 200px;
+  border-radius: 5px;
+  margin-top: 15px;
 }
